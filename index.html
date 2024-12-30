@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopstudios</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">loopstudios</div>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Immersive Experiences That Deliver</h1>
+        </div>
+    </header>
+    <div class="main-section">
+        <div class="img-section" >
+            <img src="images/desktop/image-interactive.jpg" alt="">
+            <div class="text-section">
+                <h1>The leader in interactive VR</h1>
+                <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+                    projects for some of the best companies around the globe. Our award-winning 
+                    creations have transformed businesses through digital experiences that bind 
+                    to their brand.</p>
+            </div>
+        </div>
+    </div>
+    <section class="section creations-section">
+        
+        <div class="see-text">
+            <h2>Our Creations</h2>
+            <h3 class="box-see">see all</h3>
+        </div>
+        <div class="creations">
+            <div class="creation">
+                <img src="images/desktop/image-deep-earth.jpg" alt="Deep Earth">
+                <div class="creation-title">Deep Earth</div>
+            </div>
+            <div class="creation">
+                <img src="images/desktop/image-night-arcade.jpg" alt="Night Arcade">
+                <div class="creation-title">Night Arcade</div>
+            </div>
+            <div class="creation">
+                <img src="images/desktop/image-soccer-team.jpg" alt="Soccer Team VR">
+                <div class="creation-title">Soccer Team VR</div>
+            </div>
+            <div class="creation">
+                <img src="images/desktop/image-grid.jpg" alt="The Grid">
+                <div class="creation-title">The Grid</div>
+            </div>
+            <div class="creation">
+                <img src="images/desktop/image-from-above.jpg" alt="From Up Above VR">
+                <div class="creation-title">From Up Above VR</div>
+            </div>
+            <div class="creation">
+                <img src="images/desktop/image-pocket-borealis.jpg" alt="Pocket Borealis">
+                <div class="creation-title">Pocket Borealis</div>
+            </div>
+            <div class="creation">
+                <img src="images/desktop/image-curiosity.jpg" alt="The Curiosity">
+                <div class="creation-title">The Curiosity</div>
+            </div>
+            <div class="creation">
+                <img src="images/desktop/image-fisheye.jpg" alt="Make It Fisheye">
+                <div class="creation-title">Make It Fisheye</div>
+            </div>
+        </div>
+    </section>
+   
+    <footer>
+      <div class="footer-container">
+        <div class="left-side">
+            <h2>Loopstudio</h2>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Events</a>
+            <a href="#">Products</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="right-side">
+            <ul class="social-links">
+                <li><i class='bx bxl-facebook-square'></i></li>
+                <li><i class='bx bxl-twitter'></i></li>
+                <li><i class='bx bxl-pinterest'></i></li>
+                <li><i class='bx bxl-instagram'></i></li>
+            </ul>
+            <p>&copy; 2021 Loopstudios. All rights reserved.</p>
+        </div>
+    </div>
+    </footer>
+<!-- sidebar  -->
+    <div class="sidebar" id="sidebar">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Events</a>
+        <a href="#">Products</a>
+        <a href="#">Support</a>
+    </div>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const sidebar = document.getElementById('sidebar');
+        const closeBtn = document.getElementById('close-btn');
+
+        hamburger.addEventListener('click', () => {
+            sidebar.classList.add('active');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            sidebar.classList.remove('active');
+        });
+    </script>
+</body>
+</html>

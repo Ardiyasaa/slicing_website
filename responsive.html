@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopstudios</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            position: relative;
+            background: url('your-image-url.jpg') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            text-align: center;
+            border: 2px solid white;
+            padding: 10px 20px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .creations {
+            padding: 20px;
+        }
+
+        .creation-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .creation-grid div {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .creation-grid img {
+            width: 100%;
+            display: block;
+        }
+
+        .creation-grid h3 {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 5px 10px;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        footer .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer .footer-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        footer .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        footer .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+    </header>
+
+    <section>
+        <h2>The Leader in Interactive VR</h2>
+        <p>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe.</p>
+    </section>
+
+    <section class="creations">
+        <h2>Our Creations</h2>
+        <div class="creation-grid">
+            <div>
+                <img src="images/desktop/image-deep-earth.jpg" alt="Deep Earth">
+                <h3>Deep Earth</h3>
+            </div>
+            <div>
+                <img src="images/desktop/image-night-arcade.jpg" alt="Night Arcade">
+                <h3>Night Arcade</h3>
+            </div>
+            <div>
+                <img src="images/desktop/image-soccer-team.jpg" alt="Soccer Team VR">
+                <h3>Soccer Team VR</h3>
+            </div>
+            <div>
+                <img src="images/desktop/image-grid.jpg" alt="The Grid">
+                <h3>The Grid</h3>
+            </div>
+            <div>
+                <img src="images/desktop/image-from-above.jpg" alt = "Up Above VR">
+                <h3>From Up Above VR</h3>
+            </div>
+            <div>
+                <img src="images/desktop/image-pocket-borealis.jpg" alt="Pocket Borealis">
+                <h3>Pocket Borealis</h3>
+            </div>
+            <div>
+                <img src="images/desktop/image-fisheye.jpg" alt="Make It Fisheye">
+                <h3>Make It Fisheye</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Events</a>
+            <a href="#">Products</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="social-icons">
+            <a href="#">&#x1F426;</a>
+            <a href="#">&#x1F426;</a>
+            <a href="#">&#x1F426;</a>
+            <a href="#">&#x1F426;</a>
+        </div>
+        <p>&copy; 2021 Loopstudios. All rights reserved.</p>
+    </footer>
+</body>
+</html>
